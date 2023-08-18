@@ -14,8 +14,13 @@ public class UpperLowerCase {
         if (word != null && !word.isEmpty()){
             String[] words = word.split(" ");
             return words[0].toLowerCase();
+
         }
         throw new IllegalArgumentException("Word cannot be empty");
+
+
     }
+
+
 
 }
